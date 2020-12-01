@@ -7,7 +7,15 @@ public class Cell {
 	private boolean[] possible = new boolean[10];
 		//this indicates what numbers the cell can possibly be
 	
+	public void cantBe(int number)
+	{
+		possible[number] = false;
+	}
 	
+	public boolean canBe(int number)
+	{
+		return possible[number];
+	}
 	
 	public int getNumber() {
 		return number;

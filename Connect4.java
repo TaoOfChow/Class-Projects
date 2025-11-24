@@ -12,7 +12,18 @@ public class Connect4 {
 	
 	
 	public static void showBoard(char[][] board){
-		///TODO: Write a method that will show the board as described in the problem.
+		///TODO: Write a method that will show the board as in this example:
+		/*
+			|0|1|2|3|4|5|6| 
+			===============
+			| | | | | | | |
+			| | | | | | | |
+			| | | | | | | |
+			| |Y|Y| | |R|R|
+			|R|R|R|R|Y|R|Y|
+			|Y|R|Y|Y|Y|R|Y|
+			=============== 
+		 */
 		
 	}
 	
@@ -152,3 +163,4 @@ public class Connect4 {
 	}
 
 }
+
